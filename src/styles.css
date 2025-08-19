@@ -543,7 +543,8 @@ a {
 /* ******************* */
 
 #services {
-  padding: 4rem 0;
+  padding: clamp(2rem, -0.8626rem + 12.2137vw, 5rem) 0
+    clamp(0rem, -4.771rem + 20.3562vw, 5rem);
 }
 
 .services__title {
@@ -582,7 +583,16 @@ a {
   margin-bottom: 0.75rem;
 }
 
+@media only screen and (min-width: 48rem) {
+  #services {
+    padding-bottom: clamp(5rem, 3.8571rem + 2.381vw, 6rem);
+  }
+}
+
 @media only screen and (min-width: 69rem) {
+  #services {
+    padding-top: 0;
+  }
   .services__title {
     text-align: center;
   }
