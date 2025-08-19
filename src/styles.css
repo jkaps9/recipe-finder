@@ -49,6 +49,8 @@ body {
     "Segoe UI",
     system-ui,
     sans-serif;
+
+  background-color: var(--colors-neutral-100);
 }
 
 a {
