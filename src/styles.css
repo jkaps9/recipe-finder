@@ -87,6 +87,13 @@ button {
   padding: 0 var(--page-padding);
 }
 
+@media only screen and (min-width: 1300px) {
+  .container {
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
+
 .card {
   width: 100%;
   background-color: #fff;
@@ -643,6 +650,7 @@ a {
 
   #side-by-side .container {
     flex-direction: row;
+    align-items: center;
     gap: 3rem;
   }
 }
