@@ -480,10 +480,14 @@ a {
   .hero__content {
     align-items: center;
     text-align: center;
+    gap: 0.75rem;
   }
 
   .hero__text {
     max-width: 48ch;
+  }
+  .hero__btn {
+    margin-top: 1.75rem;
   }
 }
 
