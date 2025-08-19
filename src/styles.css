@@ -209,6 +209,10 @@ a {
   position: relative;
 }
 
+.header__logo img {
+  width: auto;
+  height: 32px;
+}
 /* ******************* */
 /*     MOBILE MENU     */
 /* ******************* */
