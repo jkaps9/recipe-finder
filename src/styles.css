@@ -661,8 +661,7 @@ a {
 
 #cta {
   text-align: center;
-  padding: 4rem 0;
-  background-color: var(--accent-color);
+  padding: 4rem 0 0;
 }
 
 .cta__container {
@@ -670,19 +669,13 @@ a {
   flex-direction: column;
   align-items: center;
   gap: 2rem;
+  padding: 1rem;
+  border-radius: 1rem;
+  background: var(--colors-neutral-200);
 }
 
 .cta__title {
-  color: var(--header-text-color-light);
-  /* 24px - 48px */
-  font-size: clamp(1.5rem, 0.75rem + 4.5vw, 3rem);
-  margin-bottom: 2rem;
-}
-
-.cta__text {
-  color: var(--header-text-color-light);
-  /* 16px - 24px */
-  font-size: clamp(1rem, 0.75rem + 1.5vw, 1.5rem);
+  margin-bottom: 0.75rem;
 }
 
 @media only screen and (min-width: 48rem) {
