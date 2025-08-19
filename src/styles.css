@@ -678,6 +678,12 @@ a {
   margin-bottom: 0.75rem;
 }
 
+#cta .btn--solid {
+  font-size: 1.125rem;
+  border-radius: 0.625rem;
+  padding: 1rem 1.5rem;
+}
+
 @media only screen and (min-width: 48rem) {
   #cta {
     text-align: start;
