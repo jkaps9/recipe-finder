@@ -468,6 +468,13 @@ a {
   padding: 0.8em 1.6em; /* 16px 32px*/
 }
 
+.hero__image {
+  border-radius: 3.453px;
+  box-shadow: 0 0 0 3.453px var(--colors-neutral-0);
+  display: flex;
+  overflow: hidden;
+}
+
 /* ******************* */
 /*       SERVICES      */
 /* ******************* */
