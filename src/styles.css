@@ -175,6 +175,16 @@ button {
 }
 
 /* ******************* */
+/*      TYPOGRAPHY     */
+/* ******************* */
+.text-preset-1 {
+  font-size: clamp(3.25rem, 2.8099rem + 1.8779vw, 4.5rem); /*52px - 72px*/
+  font-weight: 800;
+  line-height: 1.1em;
+  letter-spacing: -2px;
+}
+
+/* ******************* */
 /*    GLOBAL STYLING   */
 /* ******************* */
 
@@ -415,7 +425,7 @@ a {
 
 #hero {
   text-align: center;
-  padding: 10rem 0 4rem;
+  padding: 3rem 0;
 }
 
 .hero__container {
@@ -423,19 +433,11 @@ a {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  text-align: start;
   gap: 2rem;
 }
 
-.hero__title {
-  /* 32px - 56px */
-  font-size: clamp(2rem, 0.75rem + 5.5vw, 4.5rem);
-  font-weight: bold;
-}
-
 .hero__text {
-  /* 16px - 24px */
-  font-size: clamp(1rem, 0.75rem + 1.5vw, 1.5rem);
-  line-height: 1.5em;
   width: 100%;
   max-width: clamp(45ch, 1rem + 60vw, 66ch);
 }
