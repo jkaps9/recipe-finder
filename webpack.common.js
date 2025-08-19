@@ -8,12 +8,16 @@ module.exports = {
       template: "./src/template.html",
     }),
     new HtmlWebpackPlugin({
-      filename: "card.html", 
-      template: "src/card.html",
+      filename: "about.html",
+      template: "src/pages/about.html",
     }),
     new HtmlWebpackPlugin({
-      filename: "card2.html",
-      template: "src/card2.html",
+      filename: "recipes.html",
+      template: "src/pages/recipes.html",
+    }),
+    new HtmlWebpackPlugin({
+      filename: "recipe.html",
+      template: "src/pages/recipe.html",
     }),
   ],
   output: {
