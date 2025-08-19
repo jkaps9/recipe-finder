@@ -1,0 +1,535 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Professional home repair, electrical, construction, and design services. Get quality work done with our experienced team."
+    />
+    <title>Home Services - Professional Repair & Construction</title>
+
+    <!-- Preload critical resources -->
+    <link
+      rel="preload"
+      href="assets/svgs/logoipsum-380.svg"
+      as="image"
+      type="image/svg+xml"
+    />
+    <link rel="preload" href="optimized.css" as="style" />
+
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="optimized.css" />
+
+    <!-- Favicon -->
+    <link rel="icon" href="assets/favicon.ico" />
+  </head>
+
+  <body>
+    <header class="header">
+      <div class="container">
+        <div class="header__container">
+          <div class="header__logo">
+            <a href="template.html" aria-label="Home - Company Logo">
+              <img
+                src="assets/svgs/logoipsum-380.svg"
+                alt="Company Logo"
+                width="120"
+                height="40"
+                loading="eager"
+              />
+            </a>
+          </div>
+
+          <nav class="header__nav" id="main-navigation">
+            <button
+              class="header__hamburger"
+              aria-label="Toggle navigation menu"
+              aria-expanded="false"
+              aria-controls="mobile-menu"
+              type="button"
+            >
+              <span class="header__hamburger-line" aria-hidden="true"></span>
+              <span class="header__hamburger-line" aria-hidden="true"></span>
+              <span class="header__hamburger-line" aria-hidden="true"></span>
+            </button>
+
+            <ul class="header__menu" role="menubar">
+              <li role="none">
+                <a href="#" class="header__menu-link" role="menuitem">Home</a>
+              </li>
+              <li role="none">
+                <a href="card.html" class="header__menu-link" role="menuitem"
+                  >About</a
+                >
+              </li>
+              <li role="none">
+                <a href="card2.html" class="header__menu-link" role="menuitem"
+                  >Contact</a
+                >
+              </li>
+            </ul>
+
+            <div
+              class="header__mobile-menu"
+              id="mobile-menu"
+              aria-hidden="true"
+            >
+              <ul>
+                <li>
+                  <a href="#">Home</a>
+                </li>
+                <li>
+                  <a href="card.html">About</a>
+                </li>
+                <li>
+                  <a href="card2.html">Contact</a>
+                </li>
+              </ul>
+            </div>
+          </nav>
+
+          <a href="#contact" class="btn btn--primary header__cta">Contact Us</a>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div class="container">
+          <div class="hero__container">
+            <h1 class="hero__title">I can be your hero!</h1>
+            <p class="hero__description">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Consequatur error mollitia nisi similique aut ab totam, animi
+              consequuntur dignissimos aperiam.
+            </p>
+            <a class="btn btn--primary" href="#contact">Get Quote</a>
+          </div>
+        </div>
+      </section>
+
+      <section class="card-grid">
+        <div class="container">
+          <h2 class="card-grid__title">Our Services</h2>
+          <div class="card-grid__container">
+            <article class="card card-grid__card">
+              <img
+                src="assets/svgs/home_repair_service.svg"
+                alt=""
+                class="card-grid__icon"
+                loading="lazy"
+                decoding="async"
+                width="48"
+                height="48"
+              />
+              <h3>Home Repair Services</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
+                alias facilis dolorum doloremque reprehenderit temporibus ut
+                accusamus blanditiis totam eius?
+              </p>
+              <a href="#contact" class="btn btn--primary">Contact Us</a>
+            </article>
+
+            <article class="card card-grid__card">
+              <img
+                src="assets/svgs/electrical_services.svg"
+                alt=""
+                class="card-grid__icon"
+                loading="lazy"
+                decoding="async"
+                width="48"
+                height="48"
+              />
+              <h3>Electrical Services</h3>
+              <p>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illum
+                magni qui consectetur libero ipsum voluptatem aut deserunt,
+                facilis debitis excepturi?
+              </p>
+              <a href="#contact" class="btn btn--primary">Contact Us</a>
+            </article>
+
+            <article class="card card-grid__card">
+              <img
+                src="assets/svgs/construction.svg"
+                alt=""
+                class="card-grid__icon"
+                loading="lazy"
+                decoding="async"
+                width="48"
+                height="48"
+              />
+              <h3>Construction Services</h3>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque,
+                amet sed! Eius, ipsam animi nihil impedit facere exercitationem
+                consectetur facilis!
+              </p>
+              <a href="#contact" class="btn btn--primary">Contact Us</a>
+            </article>
+
+            <article class="card card-grid__card">
+              <img
+                src="assets/svgs/design_services.svg"
+                alt=""
+                class="card-grid__icon"
+                loading="lazy"
+                decoding="async"
+                width="48"
+                height="48"
+              />
+              <h3>Design Services</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                Similique quas veniam quibusdam? Ratione distinctio, dolore esse
+                accusantium pariatur temporibus minus.
+              </p>
+              <a href="#contact" class="btn btn--primary">Contact Us</a>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="gallery">
+        <div class="container">
+          <h2 class="gallery__title">Our Work</h2>
+          <div class="gallery__grid">
+            <figure class="gallery__item">
+              <img
+                src="assets/images/jimmy-nilsson-masth-unsplash.jpg"
+                alt="Professional electrician working with drilling equipment"
+                loading="lazy"
+                decoding="async"
+              />
+              <figcaption class="gallery__attribution">
+                Photo by
+                <a
+                  href="https://unsplash.com/@jimmynilssonmasth?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                  >Jimmy Nilsson Masth</a
+                >
+                on
+                <a
+                  href="https://unsplash.com/photos/a-man-with-a-driller-and-a-hat-on-UovTD1dG-lA?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                  >Unsplash</a
+                >
+              </figcaption>
+            </figure>
+
+            <figure class="gallery__item">
+              <img
+                src="assets/images/aaron-huber-unsplash.jpg"
+                alt="Modern white kitchen interior design"
+                loading="lazy"
+                decoding="async"
+              />
+              <figcaption class="gallery__attribution">
+                Photo by
+                <a
+                  href="https://unsplash.com/@aahubs?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                  >Aaron Huber</a
+                >
+                on
+                <a
+                  href="https://unsplash.com/photos/white-kitchen-room-set-G7sE2S4Lab4?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                  >Unsplash</a
+                >
+              </figcaption>
+            </figure>
+
+            <figure class="gallery__item gallery__item--featured">
+              <img
+                src="assets/images/sam-moghadam-unsplash.jpg"
+                alt="Modern entertainment center with wall-mounted TV"
+                loading="lazy"
+                decoding="async"
+              />
+              <figcaption class="gallery__attribution">
+                Photo by
+                <a
+                  href="https://unsplash.com/@sammoghadam?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                  >Sam Moghadam</a
+                >
+                on
+                <a
+                  href="https://unsplash.com/photos/black-flat-screen-tv-on-black-tv-rack-Z9UkirW1sVs?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                  >Unsplash</a
+                >
+              </figcaption>
+            </figure>
+
+            <figure class="gallery__item">
+              <img
+                src="assets/images/daniel-mccullough-unsplash.jpg"
+                alt="Architect working on building plans and blueprints"
+                loading="lazy"
+                decoding="async"
+              />
+              <figcaption class="gallery__attribution">
+                Photo by
+                <a
+                  href="https://unsplash.com/@d_mccullough?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                  >Daniel McCullough</a
+                >
+                on
+                <a
+                  href="https://unsplash.com/photos/an-architect-working-on-a-draft-with-a-pencil-and-ruler-HtBlQdxfG9k?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                  >Unsplash</a
+                >
+              </figcaption>
+            </figure>
+
+            <figure class="gallery__item">
+              <img
+                src="assets/images/outsite-co-unsplash.jpg"
+                alt="Stylish living room interior with plants"
+                loading="lazy"
+                decoding="async"
+              />
+              <figcaption class="gallery__attribution">
+                Photo by
+                <a
+                  href="https://unsplash.com/@outsite?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                  >Outsite Co</a
+                >
+                on
+                <a
+                  href="https://unsplash.com/photos/living-room-set-with-green-dumb-cane-plant-R-LK3sqLiBw?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                  >Unsplash</a
+                >
+              </figcaption>
+            </figure>
+
+            <figure class="gallery__item">
+              <img
+                src="assets/images/murat-demircan-unsplash.jpg"
+                alt="Beautiful house exterior with landscaping"
+                loading="lazy"
+                decoding="async"
+              />
+              <figcaption class="gallery__attribution">
+                Photo by
+                <a
+                  href="https://unsplash.com/@muratdemircan?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                  >Murat Demircan</a
+                >
+                on
+                <a
+                  href="https://unsplash.com/photos/a-house-with-a-lot-of-plants-in-the-front-yard-Tv8CFQvq7Xo?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                  >Unsplash</a
+                >
+              </figcaption>
+            </figure>
+          </div>
+        </div>
+      </section>
+
+      <section class="diagonal-section">
+        <div class="container">
+          <div class="diagonal-section__content">
+            <div class="card diagonal-section__card">
+              <h2>Fun Facts</h2>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque,
+                voluptate distinctio fugiat officia iste nulla quos, assumenda
+                dolor debitis similique aperiam quis molestias non, magni quidem
+                itaque laboriosam praesentium aspernatur!
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="cta" id="contact">
+        <div class="container">
+          <div class="cta__container">
+            <div class="cta__content">
+              <h2 class="cta__title">Get It Done With Us</h2>
+              <p class="cta__description">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque,
+                voluptate distinctio fugiat officia iste nulla quos, assumenda
+                dolor debitis similique aperiam quis molestias non, magni quidem
+                itaque laboriosam praesentium aspernatur!
+              </p>
+            </div>
+            <a href="#contact" class="btn btn--primary">Get Quote</a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container">
+        <div class="footer__container">
+          <div class="footer__logo">
+            <a href="template.html" aria-label="Home - Company Logo">
+              <img
+                src="assets/svgs/logoipsum-380-light.svg"
+                alt="Company Logo"
+                width="120"
+                height="40"
+                loading="lazy"
+                decoding="async"
+              />
+            </a>
+          </div>
+
+          <nav class="footer__nav" aria-label="Footer navigation">
+            <ul class="footer__menu">
+              <li class="footer__menu-header">Sitemap</li>
+              <li>
+                <a href="#">Home</a>
+              </li>
+              <li>
+                <a href="#">About</a>
+              </li>
+              <li>
+                <a href="#">Contact</a>
+              </li>
+            </ul>
+          </nav>
+
+          <div class="footer__socials">
+            <a
+              href="https://www.facebook.com"
+              class="footer__social-link"
+              aria-label="Visit our Facebook page"
+              rel="noopener noreferrer"
+              target="_blank"
+            >
+              <img
+                src="assets/svgs/facebook light.svg"
+                alt="Facebook"
+                loading="lazy"
+                decoding="async"
+              />
+            </a>
+            <a
+              href="https://www.instagram.com"
+              class="footer__social-link"
+              aria-label="Visit our Instagram page"
+              rel="noopener noreferrer"
+              target="_blank"
+            >
+              <img
+                src="assets/svgs/instagram light.svg"
+                alt="Instagram"
+                loading="lazy"
+                decoding="async"
+              />
+            </a>
+            <a
+              href="https://www.x.com"
+              class="footer__social-link"
+              aria-label="Visit our X (Twitter) page"
+              rel="noopener noreferrer"
+              target="_blank"
+            >
+              <img
+                src="assets/svgs/x light.svg"
+                alt="X (Twitter)"
+                loading="lazy"
+                decoding="async"
+              />
+            </a>
+            <a
+              href="https://www.google.com"
+              class="footer__social-link"
+              aria-label="Visit our Google Business page"
+              rel="noopener noreferrer"
+              target="_blank"
+            >
+              <img
+                src="assets/svgs/google light.svg"
+                alt="Google"
+                loading="lazy"
+                decoding="async"
+              />
+            </a>
+            <a
+              href="https://www.pinterest.com"
+              class="footer__social-link"
+              aria-label="Visit our Pinterest page"
+              rel="noopener noreferrer"
+              target="_blank"
+            >
+              <img
+                src="assets/svgs/pinterest light.svg"
+                alt="Pinterest"
+                loading="lazy"
+                decoding="async"
+              />
+            </a>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script>
+      // Mobile menu toggle functionality
+      document.addEventListener("DOMContentLoaded", function () {
+        const hamburger = document.querySelector(".header__hamburger");
+        const nav = document.querySelector(".header__nav");
+        const mobileMenu = document.querySelector(".header__mobile-menu");
+
+        if (hamburger && nav && mobileMenu) {
+          hamburger.addEventListener("click", function () {
+            const isExpanded =
+              hamburger.getAttribute("aria-expanded") === "true";
+
+            // Toggle ARIA attributes
+            hamburger.setAttribute("aria-expanded", !isExpanded);
+            mobileMenu.setAttribute("aria-hidden", isExpanded);
+
+            // Toggle active class
+            nav.classList.toggle("active");
+          });
+
+          // Close mobile menu when clicking outside
+          document.addEventListener("click", function (e) {
+            if (!nav.contains(e.target) && nav.classList.contains("active")) {
+              hamburger.setAttribute("aria-expanded", "false");
+              mobileMenu.setAttribute("aria-hidden", "true");
+              nav.classList.remove("active");
+            }
+          });
+
+          // Close mobile menu on escape key
+          document.addEventListener("keydown", function (e) {
+            if (e.key === "Escape" && nav.classList.contains("active")) {
+              hamburger.setAttribute("aria-expanded", "false");
+              mobileMenu.setAttribute("aria-hidden", "true");
+              nav.classList.remove("active");
+              hamburger.focus();
+            }
+          });
+        }
+      });
+    </script>
+  </body>
+</html>
