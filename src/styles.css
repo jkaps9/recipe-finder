@@ -198,6 +198,7 @@ a {
 /*       HEADER        */
 /* ******************* */
 .header__menu__link {
+  cursor: pointer;
   color: var(--primary-color);
   font-size: 1.125rem;
   font-weight: 600;
@@ -372,6 +373,31 @@ a {
   .header__menu {
     display: flex;
     gap: 2.5rem;
+  }
+
+  .header__menu__link {
+    position: relative;
+  }
+
+  .header__menu__link:before,
+  .header__menu__link:hover:before {
+    /* link underline */
+    content: "";
+    width: 0%;
+    height: 3px;
+    background: var(--accent-color);
+    opacity: 1;
+    display: block;
+    position: absolute;
+    bottom: calc(0 / 16 * 1rem);
+    right: -1.5px;
+    bottom: 0;
+    border-radius: 4px;
+  }
+
+  .header__menu__link.active:before,
+  .header__menu__link:hover:before {
+    width: 100%;
   }
 }
 
