@@ -7,6 +7,7 @@
   --colors-neutral-900: #163a34;
   --colors-neutral-800: #395852;
   --colors-neutral-400: #d0dcd9;
+  --colors-neutral-300: #e0e6e3;
   --colors-neutral-200: #e9ede8;
   --colors-neutral-100: #f6f5f1;
 
@@ -216,21 +217,28 @@ a {
 */
 @media only screen and (max-width: 1023.5px) {
   .header__hamburger {
-    width: 1.5rem;
-    height: 1rem;
+    width: 2.5rem;
+    height: 2.5rem;
     margin-left: auto;
-    background-color: transparent;
+    background-color: var(--colors-neutral-300);
     border: none;
     display: flex;
     justify-content: center;
     align-items: center;
+    border-radius: 4px;
+  }
+
+  .header__hamburger__box {
+    width: 18px;
+    height: 16px;
     position: relative;
+    flex-shrink: 0;
   }
 
   .header__hamburger__line {
-    width: 100%;
+    width: 18px;
     height: 2px;
-    background-color: #1a1a1a;
+    background-color: var(--primary-color);
     border-radius: 2px;
     transition:
       transform 0.3s ease,
