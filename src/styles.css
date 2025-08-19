@@ -456,6 +456,10 @@ a {
   max-width: clamp(45ch, 1rem + 60vw, 66ch);
 }
 
+.hero__btn {
+  padding: 0.8em 1.6em; /* 16px 32px*/
+}
+
 /* ******************* */
 /*       SERVICES      */
 /* ******************* */
