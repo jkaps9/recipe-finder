@@ -1,6 +1,6 @@
 :root {
   /* Layout */
-  --page-padding: 5%;
+  --page-padding: 4.2%;
   --section-max-width: 74.5rem;
 
   /* Colors */
@@ -363,6 +363,11 @@ a {
 /*    HEADER-DESKTOP   */
 /* ******************* */
 @media only screen and (min-width: 64rem) {
+  .header__container {
+    padding-top: 1.25rem;
+    padding-bottom: 1.25rem;
+  }
+
   .header__hamburger {
     display: none;
   }
