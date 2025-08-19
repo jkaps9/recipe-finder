@@ -458,11 +458,6 @@ a {
   gap: 1rem;
 }
 
-.hero__text {
-  width: 100%;
-  max-width: clamp(45ch, 1rem + 60vw, 66ch);
-}
-
 .hero__btn {
   margin-top: 1rem;
   padding: 0.8em 1.6em; /* 16px 32px*/
