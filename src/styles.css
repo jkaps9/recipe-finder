@@ -216,8 +216,7 @@ button {
 /*    GLOBAL STYLING   */
 /* ******************* */
 
-footer,
-section {
+footer {
   padding: 0 var(--page-padding);
 }
 
