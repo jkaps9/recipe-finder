@@ -448,7 +448,7 @@ a {
   justify-content: center;
   align-items: flex-start;
   text-align: start;
-  gap: 2rem;
+  gap: 2.5rem;
 }
 
 .hero__content {
@@ -464,10 +464,27 @@ a {
 }
 
 .hero__image {
-  border-radius: 3.453px;
-  box-shadow: 0 0 0 3.453px var(--colors-neutral-0);
+  --hero-img-radius: clamp(0.2158rem, 0.0277rem + 0.8025vw, 0.75rem);
+  border-radius: var(--hero-img-radius);
+  box-shadow: 0 0 0 var(--hero-img-radius) var(--colors-neutral-0);
   display: flex;
   overflow: hidden;
+}
+
+@media only screen and (min-width: 64rem) {
+  .hero__container {
+    align-items: center;
+    gap: 5rem;
+  }
+
+  .hero__content {
+    align-items: center;
+    text-align: center;
+  }
+
+  .hero__text {
+    max-width: 48ch;
+  }
 }
 
 /* ******************* */
