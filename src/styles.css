@@ -661,7 +661,7 @@ a {
 
 #cta {
   text-align: center;
-  padding: 4rem 0 0;
+  padding: 4rem var(--page-padding) 0;
 }
 
 .cta__container {
@@ -669,7 +669,7 @@ a {
   flex-direction: column;
   align-items: center;
   gap: 2rem;
-  padding: 1rem;
+  padding: 3rem 1rem;
   border-radius: 1rem;
   background: var(--colors-neutral-200);
 }
