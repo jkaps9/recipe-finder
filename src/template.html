@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Page Title</title>
+    <title>Healthy Recipe Finder</title>
   </head>
 
   <body>
@@ -26,302 +26,126 @@
                 <a href="#" class="header__menu__link" role="menuitem">Home</a>
               </li>
               <li role="none">
-                <a href="card.html" class="header__menu__link" role="menuitem"
+                <a href="about.html" class="header__menu__link" role="menuitem"
                   >About</a
                 >
               </li>
               <li role="none">
-                <a href="card2.html" class="header__menu__link" role="menuitem"
-                  >Contact</a
+                <a
+                  href="recipes.html"
+                  class="header__menu__link"
+                  role="menuitem"
+                  >Recipes</a
                 >
               </li>
             </ul>
           </div>
         </nav>
-        <a href="#contact" class="btn--solid header__btn">Contact Us</a>
+        <a href="recipes.html" class="btn--solid header__btn">Browse recipes</a>
       </div>
     </header>
 
     <main>
       <section id="hero">
         <div class="container hero__container">
-          <h1 class="hero__title">I can be your hero!</h1>
-          <p class="hero__text">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur
-            error mollitia nisi similique aut ab totam, animi consequuntur
-            dignissimos aperiam.
-          </p>
-          <a class="btn--solid hero__btn" href="#contact">Get Quote</a>
+          <div class="hero__content">
+            <h1 class="hero__title">Healthy meals, zero fuss</h1>
+            <p class="hero__text">
+              Discover eight quick, whole-food recipes that you can cook
+              tonight—no processed junk, no guesswork.
+            </p>
+            <a class="btn--solid hero__btn" href="#contact">Start exploring</a>
+          </div>
+          <div class="hero__image">
+            <img
+              sizes="(max-width: 1400px) 100vw, 1400px"
+              srcset="
+                assets/images/image-home-hero-small.webp  400w,
+                assets/images/image-home-hero-large.webp 1400w
+              "
+              src="assets/images/image-home-hero-large.webp"
+              alt="woman cooking in a kitchen"
+              loading="lazy"
+              decoding="async"
+            />
+          </div>
         </div>
       </section>
 
       <section id="services">
         <div class="container services__container">
-          <h2 class="services__title">Services</h2>
+          <h2 class="services__title">What you'll get</h2>
           <div class="card__container">
             <div class="card services_card">
               <img
                 class="services__card__icon"
-                src="assets/svgs/home_repair_service.svg"
+                src="assets/svgs/icon-whole-food-recipes.svg"
                 alt="home repair"
                 loading="lazy"
                 decoding="async"
               />
-              <h3 class="services__card__title">Home Repair Services</h3>
+              <h3 class="services__card__title">Whole-food recipes</h3>
               <p class="services__card__text">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
-                alias facilis dolorum doloremque reprehenderit temporibus ut
-                accusamus blanditiis totam eius?
+                Each dish uses everyday, unprocessed ingredients.
               </p>
-              <a href="#" class="btn--solid">Contact Us</a>
             </div>
             <div class="card services_card">
               <img
                 class="services__card__icon"
-                src="assets/svgs/electrical_services.svg"
+                src="assets/svgs/icon-minimum-fuss.svg"
                 alt="electical services"
                 loading="lazy"
                 decoding="async"
               />
-              <h3 class="services__card__title">Electrical Services</h3>
+              <h3 class="services__card__title">Minimum fuss</h3>
               <p class="services__card__text">
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illum
-                magni qui consectetur libero ipsum voluptatem aut deserunt,
-                facilis debitis excepturi?
+                All recipes are designed to make eating healthy quick and easy.
               </p>
-              <a href="#" class="btn--solid">Contact Us</a>
             </div>
             <div class="card services_card">
               <img
                 class="services__card__icon"
-                src="assets/svgs/construction.svg"
+                src="assets/svgs/icon-search-in-seconds.svg"
                 alt="construction"
                 loading="lazy"
                 decoding="async"
               />
-              <h3 class="services__card__title">Construction Services</h3>
+              <h3 class="services__card__title">Search in seconds</h3>
               <p class="services__card__text">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque,
-                amet sed! Eius, ipsam animi nihil impedit facere exercitationem
-                consectetur facilis!
+                Filter by name or ingredient and jump straight to the recipe you
+                need.
               </p>
-              <a href="#" class="btn--solid">Contact Us</a>
-            </div>
-            <div class="card services_card">
-              <img
-                class="services__card__icon"
-                src="assets/svgs/design_services.svg"
-                alt="design services"
-                loading="lazy"
-                decoding="async"
-              />
-              <h3 class="services__card__title">Design Services</h3>
-              <p class="services__card__text">
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                Similique quas veniam quibusdam? Ratione distinctio, dolore esse
-                accusantium pariatur temporibus minus.
-              </p>
-              <a href="#" class="btn--solid">Contact Us</a>
             </div>
           </div>
         </div>
       </section>
 
-      <section id="gallery">
-        <div class="container gallery__container">
-          <h2 class="gallery__title">Our Work</h2>
-          <div class="gallery__grid">
-            <figure class="gallery__item">
-              <img
-                sizes="(max-width: 1400px) 100vw, 1400px"
-                srcset="
-                  assets/images/jimmy-nilsson-masth-unsplash_hcdiu3_c_scale_w_400.jpg   400w,
-                  assets/images/jimmy-nilsson-masth-unsplash_hcdiu3_c_scale_w_1200.jpg 1200w,
-                  assets/images/jimmy-nilsson-masth-unsplash_hcdiu3_c_scale_w_1400.jpg 1400w
-                "
-                src="assets/images/jimmy-nilsson-masth-unsplash_hcdiu3_c_scale_w_1400.jpg"
-                alt="Professional electrician working with drilling equipment"
-                loading="lazy"
-                decoding="async"
-              />
-              <figcaption class="gallery__attribution">
-                Photo by
-                <a
-                  href="https://unsplash.com/@jimmynilssonmasth?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash"
-                  rel="noopener noreferrer"
-                  target="_blank"
-                  >Jimmy Nilsson Masth</a
-                >
-                on
-                <a
-                  href="https://unsplash.com/photos/a-man-with-a-driller-and-a-hat-on-UovTD1dG-lA?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash"
-                  rel="noopener noreferrer"
-                  target="_blank"
-                  >Unsplash</a
-                >
-              </figcaption>
-            </figure>
-
-            <figure class="gallery__item">
-              <img
-                src="assets/images/aaron-huber-unsplash.jpg"
-                alt="Modern white kitchen interior design"
-                loading="lazy"
-                decoding="async"
-              />
-              <figcaption class="gallery__attribution">
-                Photo by
-                <a
-                  href="https://unsplash.com/@aahubs?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash"
-                  rel="noopener noreferrer"
-                  target="_blank"
-                  >Aaron Huber</a
-                >
-                on
-                <a
-                  href="https://unsplash.com/photos/white-kitchen-room-set-G7sE2S4Lab4?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash"
-                  rel="noopener noreferrer"
-                  target="_blank"
-                  >Unsplash</a
-                >
-              </figcaption>
-            </figure>
-
-            <figure class="gallery__item gallery__item--featured">
-              <img
-                sizes="(max-width: 1400px) 100vw, 1400px"
-                srcset="
-                  assets/images/sam-moghadam-unsplash_c4xixr_c_scale,w_400.jpg   400w,
-                  assets/images/sam-moghadam-unsplash_c4xixr_c_scale,w_1013.jpg 1013w,
-                  assets/images/sam-moghadam-unsplash_c4xixr_c_scale,w_1400.jpg 1400w
-                "
-                src="assets/images/sam-moghadam-unsplash_c4xixr_c_scale,w_1400.jpg"
-                alt="Modern entertainment center with wall-mounted TV"
-                loading="lazy"
-                decoding="async"
-              />
-              <figcaption class="gallery__attribution">
-                Photo by
-                <a
-                  href="https://unsplash.com/@sammoghadam?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash"
-                  rel="noopener noreferrer"
-                  target="_blank"
-                  >Sam Moghadam</a
-                >
-                on
-                <a
-                  href="https://unsplash.com/photos/black-flat-screen-tv-on-black-tv-rack-Z9UkirW1sVs?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash"
-                  rel="noopener noreferrer"
-                  target="_blank"
-                  >Unsplash</a
-                >
-              </figcaption>
-            </figure>
-
-            <figure class="gallery__item">
-              <img
-                sizes="(max-width: 1400px) 100vw, 1400px"
-                srcset="
-                  assets/images/daniel-mccullough-unsplash_cvkwjn_c_scale,w_400.jpg   400w,
-                  assets/images/daniel-mccullough-unsplash_cvkwjn_c_scale,w_982.jpg   982w,
-                  assets/images/daniel-mccullough-unsplash_cvkwjn_c_scale,w_1400.jpg 1400w
-                "
-                src="assets/images/daniel-mccullough-unsplash_cvkwjn_c_scale,w_1400.jpg"
-                alt="Architect working on building plans and blueprints"
-                loading="lazy"
-                decoding="async"
-              />
-              <figcaption class="gallery__attribution">
-                Photo by
-                <a
-                  href="https://unsplash.com/@d_mccullough?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash"
-                  rel="noopener noreferrer"
-                  target="_blank"
-                  >Daniel McCullough</a
-                >
-                on
-                <a
-                  href="https://unsplash.com/photos/an-architect-working-on-a-draft-with-a-pencil-and-ruler-HtBlQdxfG9k?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash"
-                  rel="noopener noreferrer"
-                  target="_blank"
-                  >Unsplash</a
-                >
-              </figcaption>
-            </figure>
-
-            <figure class="gallery__item">
-              <img
-                sizes="(max-width: 1400px) 100vw, 1400px"
-                srcset="
-                  assets/images/outsite-co-unsplash_eghhxl_c_scale,w_400.jpg   400w,
-                  assets/images/outsite-co-unsplash_eghhxl_c_scale,w_1106.jpg 1106w,
-                  assets/images/outsite-co-unsplash_eghhxl_c_scale,w_1400.jpg 1400w
-                "
-                src="assets/images/outsite-co-unsplash_eghhxl_c_scale,w_1400.jpg"
-                alt="Stylish living room interior with plants"
-                loading="lazy"
-                decoding="async"
-              />
-              <figcaption class="gallery__attribution">
-                Photo by
-                <a
-                  href="https://unsplash.com/@outsite?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash"
-                  rel="noopener noreferrer"
-                  target="_blank"
-                  >Outsite Co</a
-                >
-                on
-                <a
-                  href="https://unsplash.com/photos/living-room-set-with-green-dumb-cane-plant-R-LK3sqLiBw?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash"
-                  rel="noopener noreferrer"
-                  target="_blank"
-                  >Unsplash</a
-                >
-              </figcaption>
-            </figure>
-
-            <figure class="gallery__item gallery__item--wide">
-              <img
-                src="assets/images/murat-demircan-unsplash.jpg"
-                alt="Beautiful house exterior with landscaping"
-                loading="lazy"
-                decoding="async"
-              />
-              <figcaption class="gallery__attribution">
-                Photo by
-                <a
-                  href="https://unsplash.com/@muratdemircan?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash"
-                  rel="noopener noreferrer"
-                  target="_blank"
-                  >Murat Demircan</a
-                >
-                on
-                <a
-                  href="https://unsplash.com/photos/a-house-with-a-lot-of-plants-in-the-front-yard-Tv8CFQvq7Xo?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash"
-                  rel="noopener noreferrer"
-                  target="_blank"
-                  >Unsplash</a
-                >
-              </figcaption>
-            </figure>
+      <section id="side-by-side">
+        <div class="container">
+          <div class="side-by-side__content">
+            <h2 class="side-by-side__title">Built for real life</h2>
+            <p class="side-by-side__text">
+              Cooking shouldn't be complicated. These recipes come in under 30
+              minutes of active time, fit busy schedules, and taste good enough
+              to repeat.
+            </p>
+            <p class="side-by-side__text">
+              Whether you're new to the kitchen or just need fresh ideas, we've
+              got you covered.
+            </p>
           </div>
-        </div>
-      </section>
-
-      <section id="diagonal-bg">
-        <div class="diagonal-box">
-          <div class="container">
-            <div class="card">
-              <div class="text">
-                <h2>Fun Facts</h2>
-                <p>
-                  Lorem ipsum dolor sit amet consectetur adip isicing elit.
-                  Atque, voluptate distinctio fugiat officia iste nu lla quos,
-                  assumenda dolor debitis similique aperiam quis molest ias non,
-                  magni quidem itaque laboriosam praesentium aspernatur!
-                </p>
-              </div>
-            </div>
+          <div class="side-by-side__image">
+            <img
+              sizes="(max-width: 1400px) 100vw, 1400px"
+              srcset="
+                assets/images/image-home-real-life-small.webp  400w,
+                assets/images/image-home-real-life-large.webp 1400w
+              "
+              src="assets/images/image-home-real-life-large.webp"
+              alt="closeup of woman cutting cabbage"
+              loading="lazy"
+              decoding="async"
+            />
           </div>
         </div>
       </section>
@@ -329,15 +153,12 @@
       <section id="cta">
         <div class="container cta__container">
           <div class="text">
-            <h2 class="cta__title">Get It Done With Us</h2>
+            <h2 class="cta__title">Ready to cook smarter?</h2>
             <p class="cta__text">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque,
-              voluptate distinctio fugiat officia iste nulla quos, assumenda
-              dolor debitis similique aperiam quis molestias non, magni quidem
-              itaque laboriosam praesentium aspernatur!
+              Hit the button, pick a recipe, and get dinner on the table—fast.
             </p>
           </div>
-          <a href="#" class="btn--solid">Get Quote</a>
+          <a href="#" class="btn--solid">Browse recipes</a>
         </div>
       </section>
     </main>
@@ -345,65 +166,28 @@
     <footer>
       <div class="container footer__container">
         <div class="footer__logo">
-          <a href="template.html">
-            <img
-              src="assets/svgs/logo-light.svg"
-              alt="logo"
-              loading="lazy"
-              decoding="async"
-            />
-          </a>
+          <p class="footer__text">Made with ❤️ and 🥑</p>
         </div>
-        <nav class="footer__nav" aria-label="Footer navigation">
-          <ul class="footer__menu">
-            <li class="footer__menu__header">Sitemap</li>
-            <li>
-              <a href="#" class="footer__menu__link">Home</a>
-            </li>
-            <li>
-              <a href="#" class="footer__menu__link">About</a>
-            </li>
-            <li>
-              <a href="#" class="footer__menu__link">Contact</a>
-            </li>
-          </ul>
-        </nav>
         <div class="footer__socials">
-          <a href="https://www.facebook.com" class="footer__socials__link">
-            <img
-              src="assets/svgs/facebook light.svg"
-              alt="facebook"
-              loading="lazy"
-              decoding="async"
-            />
-          </a>
           <a href="https://www.instagram.com" class="footer__socials__link">
             <img
-              src="assets/svgs/instagram light.svg"
+              src="assets/svgs/icon-instagram.svg"
               alt="instagram"
               loading="lazy"
               decoding="async"
             />
           </a>
-          <a href="https://www.x.com" class="footer__socials__link">
+          <a href="https://www.bluesky.com" class="footer__socials__link">
             <img
-              src="assets/svgs/x light.svg"
+              src="assets/svgs/icon-bluesky.svg"
               alt="x (twitter)"
               loading="lazy"
               decoding="async"
             />
           </a>
-          <a href="https://www.google.com" class="footer__socials__link">
+          <a href="https://www.tiktok.com" class="footer__socials__link">
             <img
-              src="assets/svgs/google light.svg"
-              alt="google"
-              loading="lazy"
-              decoding="async"
-            />
-          </a>
-          <a href="https://www.pinterest.com" class="footer__socials__link">
-            <img
-              src="assets/svgs/pinterest light.svg"
+              src="assets/svgs/icon-tiktok.svg"
               alt="pinterest"
               loading="lazy"
               decoding="async"
