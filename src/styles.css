@@ -179,16 +179,23 @@ button {
 /* ******************* */
 .text-preset-1 {
   font-size: clamp(3.25rem, 2.8099rem + 1.8779vw, 4.5rem); /*52px - 72px*/
-  font-weight: 800;
+  font-weight: 800; /* extra bold*/
   line-height: 1.1em;
   letter-spacing: -2px;
 }
 
 .text-preset-2 {
   font-size: clamp(2.5rem, 2.0229rem + 2.0356vw, 3rem); /* 40px - 48px */
-  font-weight: 800;
+  font-weight: 800; /* extra bold*/
   line-height: 1.2em;
   letter-spacing: -2px;
+}
+
+.text-preset-3 {
+  font-size: 2rem; /* 32px */
+  font-weight: 700; /* bold */
+  line-height: 1.3em;
+  letter-spacing: -1px;
 }
 
 .text-preset-6 {
