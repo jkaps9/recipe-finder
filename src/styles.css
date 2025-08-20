@@ -867,3 +867,16 @@ footer {
     gap: 4rem;
   }
 }
+
+/* ******************* */
+/*  Beyond the plate   */
+/* ******************* */
+
+.side-by-side__list {
+  list-style: circle;
+  padding-left: 1rem;
+}
+
+.side-by-side__list-item {
+  color: var(--colors-neutral-800);
+}
