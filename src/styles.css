@@ -831,3 +831,24 @@ footer {
 /* ******************* */
 /*  Side by side list  */
 /* ******************* */
+
+.side-by-side.list {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+.side-by-side.list .container {
+  gap: 2.5rem;
+}
+
+.side-by-side__list-arrows {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.side-by-side__list-arrows-item {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
