@@ -833,8 +833,8 @@ footer {
 /* ******************* */
 
 .side-by-side.list {
-  padding-top: 3rem;
-  padding-bottom: 3rem;
+  padding-top: clamp(3rem, 1.9437rem + 4.507vw, 6rem);
+  padding-bottom: clamp(3rem, 1.9437rem + 4.507vw, 6rem);
 }
 
 .side-by-side.list .container {
