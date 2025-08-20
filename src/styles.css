@@ -660,7 +660,7 @@ a {
 
 #cta {
   text-align: center;
-  padding: 4rem var(--page-padding) 0;
+  padding: clamp(4rem, 3.0458rem + 4.0712vw, 5rem) var(--page-padding) 0;
 }
 
 .cta__container {
@@ -668,7 +668,8 @@ a {
   flex-direction: column;
   align-items: center;
   gap: 2rem;
-  padding: 3rem 1rem;
+  padding: clamp(3rem, 1.0916rem + 8.1425vw, 5rem)
+    clamp(0rem, 1.9542rem + -4.0712vw, 1rem);
   border-radius: 1rem;
   background: var(--colors-neutral-200);
 }
@@ -684,14 +685,14 @@ a {
 }
 
 @media only screen and (min-width: 48rem) {
-  #cta {
-    text-align: start;
-  }
-
   .cta__container {
-    display: grid;
-    grid-template-columns: 3fr 2fr;
-    place-items: center;
+    position: relative;
+    background:
+      url("assets/svgs/pattern-knife.svg") no-repeat top -50px right -20.78px/
+        171.78px 171.78px,
+      url("assets/svgs/pattern-fork.svg") no-repeat bottom -56.72px left -48px /
+        179.13px 231.72px,
+      var(--colors-neutral-200);
   }
 }
 
