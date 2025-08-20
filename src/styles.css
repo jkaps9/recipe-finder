@@ -698,6 +698,9 @@ a {
 }
 
 @media only screen and (min-width: 48rem) {
+  #cta {
+    padding-top: clamp(0rem, 10.7143rem + -11.9048vw, 5rem);
+  }
   .cta__container {
     padding: clamp(5rem, 3.1887rem + 3.7736vw, 6rem) 0;
     position: relative;
