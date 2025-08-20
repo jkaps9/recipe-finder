@@ -423,7 +423,8 @@ a {
 /* ******************* */
 @media only screen and (min-width: 64rem) {
   .header__container {
-    padding: 1.25rem 0;
+    padding-top: 1.25rem;
+    padding-bottom: 1.25rem;
   }
 
   .header__hamburger {
