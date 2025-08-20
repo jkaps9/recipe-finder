@@ -489,7 +489,7 @@ a {
 
 #hero {
   text-align: center;
-  padding: 3rem 0;
+  padding: 3rem 0 0;
 }
 
 .hero__container {
@@ -541,6 +541,10 @@ a {
 }
 
 @media only screen and (min-width: 64rem) {
+  #hero {
+    padding-bottom: clamp(0rem, -14.7692rem + 23.0769vw, 6rem);
+  }
+
   .hero__container {
     align-items: center;
     gap: 5rem;
