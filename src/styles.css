@@ -880,3 +880,31 @@ footer {
 .side-by-side__list-item {
   color: var(--colors-neutral-800);
 }
+
+/* ~~~~~~~~~~~~~~~~~~~ */
+/* ******************* */
+/*    RECIPES PAGE     */
+/* ******************* */
+/* ~~~~~~~~~~~~~~~~~~~ */
+
+/* ******************* */
+/*     Inner Title     */
+/* ******************* */
+
+/* TODO: update typography */
+.inner-title__container {
+  /* TODO: update padding to proper amounts */
+  padding-top: clamp(3rem, 1.9437rem + 4.507vw, 6rem);
+}
+
+.inner-title__content {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+@media only screen and (min-width: 64rem) {
+  .inner-title__container {
+    text-align: center;
+  }
+}
