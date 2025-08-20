@@ -499,8 +499,8 @@ a {
 
 .hero__title .highlight-text:before {
   content: "";
-  width: clamp(183px, 22vw, 270px);
-  height: clamp(23px, 4vw, 39px);
+  width: clamp(11.4375rem, 9.5291rem + 8.1425vw, 13.4375rem);
+  height: clamp(1.4375rem, 1.0797rem + 1.5267vw, 1.8125rem);
   position: absolute;
   top: 50%;
   opacity: 0.4;
@@ -522,14 +522,6 @@ a {
   overflow: hidden;
 }
 
-@media only screen and (min-width: 48rem) {
-  /* .hero__title:before {
-    width: 215px;
-    height: 29px;
-    top: 33px;
-  } */
-}
-
 @media only screen and (min-width: 64rem) {
   .hero__container {
     align-items: center;
@@ -541,13 +533,6 @@ a {
     text-align: center;
     gap: 0.75rem;
   }
-
-  /* .hero__title:before {
-    width: 270px;
-    height: 39px;
-
-    top: 38px;
-  } */
 
   .hero__text {
     max-width: 48ch;
