@@ -858,3 +858,12 @@ footer {
   flex-direction: column;
   gap: 0.75rem;
 }
+
+@media only screen and (min-width: 64rem) {
+  .side-by-side.list .container {
+    grid-template-columns: 376px 1fr;
+    align-items: start;
+    flex-direction: row;
+    gap: 4rem;
+  }
+}
