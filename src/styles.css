@@ -648,14 +648,12 @@ a {
 }
 
 .side-by-side__content {
-  flex-grow: 0;
   display: flex;
   flex-direction: column;
   gap: 1.25rem;
 }
 
 .side-by-side__image {
-  flex-grow: 1;
   --sbs-img-radius: clamp(0.6113rem, 0.4744rem + 0.584vw, 1rem);
   border-radius: var(--sbs-img-radius);
   overflow: hidden;
@@ -688,7 +686,8 @@ a {
   }
 
   #side-by-side .container {
-    flex-direction: row;
+    display: grid;
+    grid-template-columns: 1fr 635px;
     align-items: center;
     gap: 3rem;
   }
@@ -754,6 +753,10 @@ a {
       url("assets/svgs/pattern-fork.svg") no-repeat bottom -17.23px left -73px /
         314.67px 390.23px,
       var(--colors-neutral-200);
+  }
+
+  .cta__title {
+    line-height: normal;
   }
 }
 /* ******************* */
