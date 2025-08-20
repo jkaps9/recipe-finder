@@ -228,6 +228,13 @@ button {
   letter-spacing: -1px;
 }
 
+.text-preset-4 {
+  font-size: 1.5rem; /* 24px */
+  font-weight: 700; /* bold */
+  line-height: 1.4em;
+  letter-spacing: -1px;
+}
+
 .text-preset-6 {
   font-family:
     "Nunito Sans",
@@ -814,3 +821,13 @@ footer {
     justify-content: space-between;
   }
 }
+
+/* ~~~~~~~~~~~~~~~~~~~ */
+/* ******************* */
+/*     ABOUT PAGE      */
+/* ******************* */
+/* ~~~~~~~~~~~~~~~~~~~ */
+
+/* ******************* */
+/*  Side by side list  */
+/* ******************* */
