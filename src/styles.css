@@ -844,7 +844,7 @@ footer {
 .side-by-side__list-arrows {
   display: flex;
   flex-direction: column;
-  gap: 0.75rem;
+  gap: 1.5rem;
 }
 
 .side-by-side__list-arrows-item {
