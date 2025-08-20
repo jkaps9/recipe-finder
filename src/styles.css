@@ -146,6 +146,12 @@ button {
   background-color: var(--colors-neutral-800);
 }
 
+.btn--solid:focus {
+  box-shadow:
+    0 0 0 3px var(--colors-neutral-0),
+    0 0 0 5px var(--colors-neutral-900);
+}
+
 /* ******************* */
 /*        FONTS        */
 /* ******************* */
