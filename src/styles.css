@@ -523,6 +523,13 @@ a {
   overflow: hidden;
 }
 
+@media only screen and (min-width: 48rem) {
+  .hero__title .highlight-text:before {
+    width: clamp(13.4375rem, 9.5089rem + 8.1845vw, 16.875rem);
+    height: clamp(1.8125rem, 1.0982rem + 1.4881vw, 2.4375rem);
+  }
+}
+
 @media only screen and (min-width: 64rem) {
   .hero__container {
     align-items: center;
