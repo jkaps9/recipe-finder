@@ -755,59 +755,13 @@ footer {
 
 /* TABLET */
 @media only screen and (min-width: 48rem) {
-  .footer__container {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 3rem;
-  }
-
-  .footer__logo {
-    grid-column: 1 / -1;
-  }
-
-  .footer__menu {
-    justify-self: end;
-    margin-right: 5vw;
-  }
-
-  .footer__socials {
-    flex-direction: column;
-    gap: 0.5rem;
-    justify-self: start;
-    margin-left: 5vw;
-  }
-
-  .footer__socials__link {
-    width: 1.5rem;
-  }
-}
-
-/* DESKTOP */
-@media only screen and (min-width: 64rem) {
   footer {
-    padding-top: 4rem;
-    padding-bottom: 4rem;
+    padding-top: 2.5rem;
+    padding-bottom: 2.5rem;
   }
 
   .footer__container {
-    grid-template-columns: repeat(3, 1fr);
-    justify-items: center;
-    align-content: space-between;
-    gap: 0;
-  }
-
-  .footer__logo {
-    grid-column: 1;
-    justify-self: start;
-    margin-left: 0;
-  }
-
-  .footer__menu {
-    margin-right: 0;
-  }
-
-  .footer__socials {
-    margin-left: 0;
-    justify-self: normal;
+    flex-direction: row;
+    justify-content: space-between;
   }
 }
