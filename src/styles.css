@@ -643,11 +643,11 @@ a {
 /* ******************* */
 /*    Side by Side     */
 /* ******************* */
-#side-by-side {
+.side-by-side {
   padding-top: clamp(4rem, 3.2958rem + 3.0047vw, 6rem);
 }
 
-#side-by-side .container {
+.side-by-side .container {
   display: flex;
   flex-direction: column;
   gap: 2rem;
@@ -687,11 +687,11 @@ a {
 }
 
 @media only screen and (min-width: 64rem) {
-  #side-by-side {
+  .side-by-side {
     padding-bottom: clamp(4rem, 3.2958rem + 3.0047vw, 6rem);
   }
 
-  #side-by-side .container {
+  .side-by-side .container {
     display: grid;
     grid-template-columns: 1fr 635px;
     align-items: center;
