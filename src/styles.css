@@ -725,50 +725,32 @@ a {
 /* ******************* */
 
 footer {
-  padding: 2rem 0;
-}
-
-.footer__logo {
-  max-width: 200px;
-  margin: 0 auto;
-}
-
-.footer__menu__header:after {
-  content: "";
-  width: 90%;
-  height: 1px;
-  background-color: var(--accent-color);
-  opacity: 1;
-  position: relative;
-  display: block;
-  margin: 0.25rem auto;
-}
-
-.footer__menu {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  gap: 1rem;
-  font-size: 1rem;
+  padding-top: 2rem;
+  padding-bottom: 1.25rem;
 }
 
 .footer__socials {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 1rem;
+  gap: 1.5rem;
 }
 
 .footer__socials__link {
-  width: 1.5rem;
-  height: auto;
+  width: 1.375rem;
+  height: 1.375rem;
+
+  img {
+    height: 100%;
+    width: 100%;
+  }
 }
 
 .footer__container {
-  display: grid;
-  justify-content: center;
-  gap: 2rem;
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: center;
+  gap: 1.5rem;
 }
 
 /* TABLET */
