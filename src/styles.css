@@ -747,13 +747,13 @@ footer {
 }
 
 .footer__socials__link {
+  display: flex;
+}
+
+.footer__socials__link img {
   width: 1.375rem;
   height: 1.375rem;
-
-  img {
-    height: 100%;
-    width: 100%;
-  }
+  object-fit: contain;
 }
 
 /* TABLET */
