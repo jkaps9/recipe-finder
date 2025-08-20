@@ -98,102 +98,37 @@
         </div>
       </section>
 
-      <section id="services">
-        <div class="container services__container">
-          <h2 class="services__title text-preset-2">What you'll get</h2>
-          <div class="card__container">
-            <div class="services__card">
-              <div class="services__card__icon">
+      <section class="recipes">
+        <div class="container recipes__container">
+          <h2 class="recipes__title text-preset-2">What you'll get</h2>
+          <div class="recipes__container">
+            <div class="recipes__card">
+              <div class="recipes__card__image">
                 <img
-                  src="../assets/svgs/icon-whole-food-recipes.svg"
-                  alt="home repair"
+                  sizes="(max-width: 1400px) 100vw, 1400px"
+                  srcset="
+                    ../assets/images/mediterranean-chickpea-salad-small.webp  400w,
+                    ../assets/images/mediterranean-chickpea-salad-large.webp 1400w
+                  "
+                  src="../assets/images/mediterranean-chickpea-salad-large.webp"
+                  alt="Mediterranean Chickpea Salad"
                   loading="lazy"
                   decoding="async"
                 />
               </div>
-              <h3 class="services__card__title text-preset-3">
-                Whole-food recipes
-              </h3>
-              <p class="services__card__text text-preset-6">
-                Each dish uses everyday, unprocessed ingredients.
-              </p>
-            </div>
-            <div class="services__card">
-              <div class="services__card__icon">
-                <img
-                  src="../assets/svgs/icon-minimum-fuss.svg"
-                  alt="electical services"
-                  loading="lazy"
-                  decoding="async"
-                />
+              <div class="text">
+                <h2 class="recipes__card__title text-preset-3">
+                  Mediterranean Chickpea Salad
+                </h2>
+                <p class="recipes__card__description text-preset-6">
+                  A refreshing, protein-packed salad tossed in a lemon-olive oil
+                  dressing.
+                </p>
               </div>
-              <h3 class="services__card__title text-preset-3">Minimum fuss</h3>
-              <p class="services__card__text text-preset-6">
-                All recipes are designed to make eating healthy quick and easy.
-              </p>
-            </div>
-            <div class="services__card">
-              <div class="services__card__icon">
-                <img
-                  src="../assets/svgs/icon-search-in-seconds.svg"
-                  alt="construction"
-                  loading="lazy"
-                  decoding="async"
-                />
-              </div>
-              <h3 class="services__card__title text-preset-3">
-                Search in seconds
-              </h3>
-              <p class="services__card__text text-preset-6">
-                Filter by name or ingredient and jump straight to the recipe you
-                need.
-              </p>
+              <div class="stats"></div>
+              <a href="recipe.html" class="btn--solid">View Recipe</a>
             </div>
           </div>
-        </div>
-      </section>
-
-      <section class="side-by-side">
-        <div class="container">
-          <div class="side-by-side__content">
-            <h2 class="side-by-side__title text-preset-2">
-              Built for real life
-            </h2>
-            <p class="side-by-side__text text-preset-6">
-              Cooking shouldn't be complicated. These recipes come in under
-              <span class="highlight-text">30 minutes</span> of active time, fit
-              busy schedules, and taste good enough to repeat.
-            </p>
-            <p class="side-by-side__text text-preset-6">
-              Whether you're new to the kitchen or just need fresh ideas, we've
-              got you covered.
-            </p>
-          </div>
-          <div class="side-by-side__image">
-            <img
-              sizes="(max-width: 1400px) 100vw, 1400px"
-              srcset="
-                ../assets/images/image-home-real-life-small.webp  400w,
-                ../assets/images/image-home-real-life-large.webp 1400w
-              "
-              src="../assets/images/image-home-real-life-large.webp"
-              alt="closeup of woman cutting cabbage"
-              loading="lazy"
-              decoding="async"
-            />
-          </div>
-        </div>
-      </section>
-
-      <section id="cta">
-        <div class="container cta__container">
-          <div class="text">
-            <h2 class="cta__title text-preset-2">Ready to cook smarter?</h2>
-            <p class="cta__text text-preset-6">
-              Hit the button, pick a recipe, and get dinner on the table—fast.
-            </p>
-          </div>
-          <a href="#" class="btn--solid">Browse recipes</a>
         </div>
       </section>
     </main>
