@@ -989,6 +989,31 @@ main.about section.side-by-side:has(.beyond-the-plate) {
 }
 
 /* ******************* */
+/*        Form         */
+/* ******************* */
+label#search {
+  position: relative;
+}
+
+label:before {
+  content: "";
+  position: absolute;
+  left: 10px;
+  top: 0;
+  bottom: 0;
+  width: 20px;
+  background: url("./assets/svgs/icon-search.svg");
+}
+
+input#search {
+  padding: 10px 30px;
+}
+
+input#search::placeholder {
+  color: var(--colors-neutral-900);
+}
+
+/* ******************* */
 /*       Recipes       */
 /* ******************* */
 
