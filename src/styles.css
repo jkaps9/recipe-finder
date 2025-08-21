@@ -1019,10 +1019,36 @@ input#search::placeholder {
   flex-direction: column;
   align-items: flex-start;
   gap: 1rem;
+  color: var(--primary-color);
+}
+
+.dropdown legend {
+  padding: 0.5rem 1rem;
+  padding-right: 2rem;
+  border-radius: 8px;
+  border: 1px solid var(--colors-neutral-800);
+  position: relative;
+}
+
+.dropdown legend:after {
+  content: "";
+  background: url("./assets/svgs/icon-chevron-down.svg");
+  position: absolute;
+  width: 1rem;
+  height: 1rem;
+  top: 0.6em;
+  right: 0.75em;
+  transition: transform 0.5s ease;
+  transform: rotate(0deg);
+}
+
+.dropdown legend.active:after {
+  top: auto;
+  bottom: 0.6em;
+  transform: rotate(180deg);
 }
 
 .filter-radio {
-  color: var(--primary-color);
   display: flex;
   align-items: center;
   gap: 0.5rem;
@@ -1067,7 +1093,7 @@ input#search::placeholder {
 }
 
 .btn--clr {
-  color: var(--primary-color);
+  color: currentColor;
 }
 
 /* ******************* */
