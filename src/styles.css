@@ -995,7 +995,7 @@ label#search {
   position: relative;
 }
 
-label:before {
+label#search:before {
   content: "";
   position: absolute;
   left: 10px;
@@ -1003,6 +1003,7 @@ label:before {
   bottom: 0;
   width: 20px;
   background: url("./assets/svgs/icon-search.svg");
+  background-repeat: no-repeat;
 }
 
 input#search {
