@@ -235,6 +235,13 @@ button {
   letter-spacing: -1px;
 }
 
+.text-preset-5 {
+  font-size: 1.25rem; /* 20px */
+  font-weight: 700; /* bold */
+  line-height: 1.4em;
+  letter-spacing: -0.5px;
+}
+
 .text-preset-6 {
   font-family:
     "Nunito Sans",
@@ -827,6 +834,15 @@ footer {
 /*     ABOUT PAGE      */
 /* ******************* */
 /* ~~~~~~~~~~~~~~~~~~~ */
+
+.tag {
+  align-self: flex-start;
+  background: var(--accent-color);
+  padding: 0.125rem 0.375rem;
+  border-radius: 6px;
+
+  color: var(--colors-neutral-900);
+}
 
 /* ******************* */
 /*  Side by side list  */
