@@ -1028,6 +1028,7 @@ input#search::placeholder {
   border-radius: 8px;
   border: 1px solid var(--colors-neutral-800);
   position: relative;
+  cursor: pointer;
 }
 
 .dropdown legend:after {
