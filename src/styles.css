@@ -1014,6 +1014,33 @@ input#search::placeholder {
   color: var(--colors-neutral-900);
 }
 
+.dropdown {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.filter-radio {
+  color: var(--colors-neutral-900);
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.filter-radio input[type="radio"] {
+  /* hide default radio button */
+  appearance: none;
+  margin: 0;
+
+  /* custom unchecked radio styles */
+  font: inherit;
+  color: currentColor;
+  width: 1.15em;
+  height: 1.15em;
+  border: 0.1em solid var(--colors-neutral-400);
+  border-radius: 50%;
+}
+
 /* ******************* */
 /*       Recipes       */
 /* ******************* */
