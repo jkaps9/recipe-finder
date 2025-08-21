@@ -914,11 +914,17 @@ footer {
 /* ******************* */
 
 .recipes__card {
-  padding: 0.25rem;
+  padding: 0.5rem;
 
   text-align: start;
 }
 
+.recipes__card__image {
+  img {
+    border-radius: 0.25rem;
+    object-fit: cover;
+  }
+}
 .recipes__card__statistics {
   display: flex;
   flex-wrap: wrap;
