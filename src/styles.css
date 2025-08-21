@@ -844,6 +844,18 @@ footer {
   color: var(--colors-neutral-900);
 }
 
+.side-by-side .about__container {
+  grid-template-columns: 1fr 618px;
+  gap: clamp(2.5rem, 1.0687rem + 6.1069vw, 4rem);
+}
+
+.about__container .side-by-side__content {
+  gap: 1.5rem;
+}
+
+.about__container .side-by-side__content p:nth-of-type(2) {
+  margin-top: -0.5rem;
+}
 /* ******************* */
 /*  Side by side list  */
 /* ******************* */
