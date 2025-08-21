@@ -1011,7 +1011,7 @@ input#search {
 }
 
 input#search::placeholder {
-  color: var(--colors-neutral-900);
+  color: var(--primary-color);
 }
 
 .dropdown {
@@ -1022,7 +1022,7 @@ input#search::placeholder {
 }
 
 .filter-radio {
-  color: var(--colors-neutral-900);
+  color: var(--primary-color);
   display: flex;
   align-items: center;
   gap: 0.5rem;
@@ -1064,6 +1064,10 @@ input#search::placeholder {
 
 .filter-radio input[type="radio"]:checked:before {
   transform: scale(1);
+}
+
+.btn--clr {
+  color: var(--primary-color);
 }
 
 /* ******************* */
