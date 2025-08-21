@@ -903,7 +903,7 @@ footer {
 
 .side-by-side__list {
   list-style: disc;
-  padding-left: 1rem;
+  padding-left: 1.75rem;
 }
 
 .side-by-side__list-item {
@@ -912,6 +912,8 @@ footer {
 
 .side-by-side .about__container.beyond-the-plate {
   grid-template-columns: 1fr 744px;
+  padding-left: 0.25rem;
+  padding-right: 0.25rem;
 }
 
 .about__container.beyond-the-plate .side-by-side__content {
