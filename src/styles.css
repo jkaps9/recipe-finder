@@ -1049,6 +1049,14 @@ input#search::placeholder {
   transform: rotate(180deg);
 }
 
+.max-prep-container {
+  display: none;
+}
+
+.dropdown legend.active + .max-prep-container {
+  display: block;
+}
+
 .filter-radio {
   display: flex;
   align-items: center;
