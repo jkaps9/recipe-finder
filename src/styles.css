@@ -294,6 +294,10 @@ a {
 /* ******************* */
 /*       HEADER        */
 /* ******************* */
+.header {
+  border-bottom: 1px solid var(--colors-neutral-300);
+}
+
 .header__menu__link {
   cursor: pointer;
   color: var(--primary-color);
