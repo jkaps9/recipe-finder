@@ -991,15 +991,22 @@ main.about section.side-by-side:has(.beyond-the-plate) {
 }
 
 .recipes__card__image {
+  width: 100%;
   img {
     border-radius: 0.25rem;
-    object-fit: cover;
+    width: 100%;
   }
 }
+
+.recipes__card__text {
+  padding: 0 0.5rem;
+}
+
 .recipes__card__statistics {
   display: flex;
   flex-wrap: wrap;
   gap: 1rem;
+  padding: 0 0.5rem;
 }
 
 .statistics__item {
