@@ -42,6 +42,7 @@ function getRecipeCard(recipe) {
     image.setAttribute("sizes", "(max-width: 1400px) 100vw, 1400px");
     image.setAttribute("srcset", srcset);
     image.setAttribute("src", `.${recipe.image.large}`);
+    image.setAttribute("alt", `.${recipe.title}`);
     image.setAttribute("loading", "lazy");
     image.setAttribute("decoding", "async");
     imageContainer.appendChild(image);
