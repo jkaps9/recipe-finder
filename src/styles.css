@@ -1242,9 +1242,18 @@ input#search::placeholder {
   gap: 2.5rem;
 }
 
-.recipe__image img {
+.recipe__image {
+  align-self: stretch;
   border-radius: 0.625rem;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.recipe__image img {
   width: 100%;
+  aspect-ratio: 1/1;
 }
 
 .recipe__content {
@@ -1268,4 +1277,9 @@ input#search::placeholder {
 
 .recipe-page footer {
   border-top: 1px solid var(--colors-neutral-300);
+}
+
+.recipe-page section {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
 }
