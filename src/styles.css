@@ -1020,6 +1020,7 @@ input#search::placeholder {
   align-items: flex-start;
   gap: 1rem;
   color: var(--primary-color);
+  position: relative;
 }
 
 .dropdown legend {
@@ -1055,6 +1056,12 @@ input#search::placeholder {
 
 .dropdown legend.active + .max-prep-container {
   display: block;
+  position: absolute;
+  top: 3rem;
+  left: 0;
+  right: 0;
+  z-index: 2;
+  background: var(--colors-neutral-100);
 }
 
 .filter-radio {
