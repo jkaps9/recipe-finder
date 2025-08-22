@@ -1025,30 +1025,15 @@ input#search::placeholder {
 
 .dropdown legend {
   padding: 0.625rem 1rem;
-  padding-right: 2rem;
   border-radius: 8px;
   border: 1px solid var(--colors-neutral-800);
   position: relative;
   cursor: pointer;
   background: #fff;
-}
 
-.dropdown legend:after {
-  content: "";
-  background: url("./assets/svgs/icon-chevron-down.svg");
-  position: absolute;
-  width: 1rem;
-  height: 1rem;
-  top: 0.75em;
-  right: 0.75em;
-  transition: transform 0.5s ease;
-  transform: rotate(0deg);
-}
-
-.dropdown legend.active:after {
-  top: auto;
-  bottom: 0.6em;
-  transform: rotate(180deg);
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
 }
 
 .max-prep-container {
