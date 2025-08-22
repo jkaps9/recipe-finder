@@ -1049,12 +1049,15 @@ form {
   right: 0;
   z-index: 2;
   background: #fff;
+  padding: 0.5rem;
+  border-radius: 8px;
 }
 
 .filter-radio {
   display: flex;
   align-items: center;
   gap: 0.5rem;
+  padding: 0.5rem;
 }
 
 .filter-radio input[type="radio"] {
@@ -1097,6 +1100,7 @@ form {
 
 .btn--clr {
   color: currentColor;
+  padding: 0.5rem;
 }
 
 label#search {
