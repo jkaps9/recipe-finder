@@ -1126,6 +1126,8 @@ input#search {
 
 input#search::placeholder {
   color: var(--primary-color);
+  font-family: "Nunito";
+  opacity: 0.7;
 }
 
 /* ******************* */
