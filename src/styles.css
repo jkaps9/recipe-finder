@@ -1213,3 +1213,35 @@ input#search::placeholder {
     height: 18.75rem;
   }
 }
+
+/* ~~~~~~~~~~~~~~~~~~~ */
+/* ******************* */
+/*     RECIPE PAGE     */
+/* ******************* */
+/* ~~~~~~~~~~~~~~~~~~~ */
+
+.breadcrumbs {
+  color: var(--primary-color);
+  margin-bottom: 1rem;
+}
+
+.root {
+  opacity: 0.6;
+}
+
+.recipe__container {
+  display: flex;
+  flex-direction: column;
+  gap: 2.5rem;
+}
+
+.recipe__image img {
+  border-radius: 0.625rem;
+  width: 100%;
+}
+
+.recipe__content {
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+}
