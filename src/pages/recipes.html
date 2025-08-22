@@ -91,7 +91,7 @@
           <form action="">
             <div class="dropdowns">
               <div class="dropdown">
-                <legend id="max-prep-time">
+                <legend id="max-prep-time" class="dropdown-btn">
                   Max Prep Time
                   <img
                     src="../assets/svgs/icon-chevron-down.svg"
@@ -111,6 +111,45 @@
                   <label class="filter-radio text-preset-7">
                     <input type="radio" name="max-prep" value="0-min" />
                     10 minutes
+                  </label>
+                  <button
+                    type="button"
+                    class="btn--clr text-preset-7"
+                    id="clr-max-prep"
+                  >
+                    Clear
+                  </button>
+                </div>
+              </div>
+              <div class="dropdown">
+                <legend id="max-cook-time" class="dropdown-btn">
+                  Max Cook Time
+                  <img
+                    src="../assets/svgs/icon-chevron-down.svg"
+                    alt="chevron"
+                    aria-hidden="true"
+                  />
+                </legend>
+                <div class="max-prep-container">
+                  <label class="filter-radio text-preset-7">
+                    <input type="radio" name="max-cook" value="0-min" />
+                    0 minutes
+                  </label>
+                  <label class="filter-radio text-preset-7">
+                    <input type="radio" name="max-cook" value="5-min" />
+                    5 minutes
+                  </label>
+                  <label class="filter-radio text-preset-7">
+                    <input type="radio" name="max-cook" value="10-min" />
+                    10 minutes
+                  </label>
+                  <label class="filter-radio text-preset-7">
+                    <input type="radio" name="max-cook" value="15-min" />
+                    15 minutes
+                  </label>
+                  <label class="filter-radio text-preset-7">
+                    <input type="radio" name="max-cook" value="20-min" />
+                    20 minutes
                   </label>
                   <button
                     type="button"
