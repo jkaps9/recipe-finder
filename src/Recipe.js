@@ -1,8 +1,12 @@
 import data from "./data.json";
 
-// data.forEach(recipe => {
-//   console.log(`${recipe.title}: ${recipe.overview}`);
-// })
+const recipeCardContainer = document.querySelector(".recipes__card__container");
+
+ data.forEach(recipe => {
+     //console.log(`${recipe.title}: ${recipe.overview}`);
+     const recipeCard = getRecipeCard(recipe);
+     recipeCardContainer.appendChild(recipeCard);
+ })
 
 // console.log(`title: ${data[0].title}\n
 //     overview: ${data[0].overview}\n
@@ -29,7 +33,7 @@ class Recipe {
 function getRecipeCard(recipe) {
     const card = document.createElement("div");
     card.classList.add('recipes__card');
-
+    
     // IMAGE
     const imageContainer = document.createElement("div");
     imageContainer.classList.add("recipes__card__image");
@@ -51,12 +55,72 @@ function getRecipeCard(recipe) {
     const overview = document.createElement("p");
     overview.className = "recipes__card__description text-preset-9";
     overview.innerHTML = recipe.overview;
+
     textContainer.appendChild(title);
     textContainer.appendChild(overview);
-
+    
     // Statistics
     const statisticsContainer = document.createElement("div");
     statisticsContainer.classList.add("recipes__card__statistics");
-    const statisticsItem = document.createElement("div");
-    const servings = 1;
+
+    // // Servings
+    const statisticsItemOne = document.createElement("div");
+    statisticsItemOne.classList.add("statistics__item");
+    const servingsImage = document.createElement("img");
+    servingsImage.setAttribute("src", "../assets/svgs/icon-servings.svg");
+    servingsImage.setAttribute("alt", "servings icon");
+    servingsImage.className = "statistics__img";
+    const servings = document.createElement("span");
+    servings.className = "statistics__value text-preset-9";
+    servings.innerHTML = `Servings: ${recipe.servings}`;
+
+    statisticsItemOne.appendChild(servingsImage);
+    statisticsItemOne.appendChild(servings);
+
+    // // Prep Time    
+    const statisticsItemTwo = document.createElement("div");
+    statisticsItemTwo.classList.add("statistics__item");
+    const preptimeImage = document.createElement("img");
+    preptimeImage.setAttribute("src", "../assets/svgs/icon-prep-time.svg");
+    preptimeImage.setAttribute("alt", "prep time icon");
+    preptimeImage.className = "statistics__img";
+    const preptime = document.createElement("span");
+    preptime.className = "statistics__value text-preset-9";
+    preptime.innerHTML = `Prep: ${recipe.prepMinutes}`;
+
+    statisticsItemTwo.appendChild(preptimeImage);
+    statisticsItemTwo.appendChild(preptime);
+
+    // // Cook Time
+    
+    const statisticsItemThree = document.createElement("div");
+    statisticsItemThree.classList.add("statistics__item");
+    const cooktimeImage = document.createElement("img");
+    cooktimeImage.setAttribute("src", "../assets/svgs/icon-cook-time.svg");
+    cooktimeImage.setAttribute("alt", "cook time icon");
+    cooktimeImage.className = "statistics__img";
+    const cooktime = document.createElement("span");
+    cooktime.className = "statistics__value text-preset-9";
+    cooktime.innerHTML = `Cook: ${recipe.cookMinutes}`;
+
+    statisticsItemThree.appendChild(cooktimeImage);
+    statisticsItemThree.appendChild(cooktime);
+
+    statisticsContainer.appendChild(statisticsItemOne);
+    statisticsContainer.appendChild(statisticsItemTwo);
+    statisticsContainer.appendChild(statisticsItemThree);
+
+    // View recipe button
+    const viewRecipeBtn = document.createElement("a");
+    viewRecipeBtn.setAttribute("href", "recipe.html");
+    viewRecipeBtn.setAttribute("recipe-id", recipe.id);
+    viewRecipeBtn.className = "btn--solid recipes__card__btn";
+    viewRecipeBtn.innerHTML = "View Recipe";
+
+    card.appendChild(imageContainer);
+    card.appendChild(textContainer);
+    card.appendChild(statisticsContainer);
+    card.appendChild(viewRecipeBtn);
+
+    return card;
 }
