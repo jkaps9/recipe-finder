@@ -7,8 +7,10 @@ hamburger.addEventListener("click", () => {
   menu.classList.toggle("active");
 });
 
-const maxPrepDropdown = document.querySelector("legend#max-prep-time");
+const dropdownButtons = document.querySelectorAll(".dropdown-btn");
 
-maxPrepDropdown.addEventListener('click', () => {
-  maxPrepDropdown.classList.toggle("active");
-})
+dropdownButtons.forEach((btn) => {
+  btn.addEventListener("click", () => {
+    btn.classList.toggle("active");
+  });
+});
