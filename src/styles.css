@@ -1262,3 +1262,7 @@ input#search::placeholder {
   flex-direction: column;
   gap: 1rem;
 }
+
+.recipe-page footer {
+  border-top: 1px solid var(--colors-neutral-300);
+}
