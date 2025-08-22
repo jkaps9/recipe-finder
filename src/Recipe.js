@@ -1,5 +1,15 @@
 import data from "./data.json";
 
+class RecipeManager {
+    recipeList = [];
+
+    constructor() {
+        data.forEach(recipe => {
+            recipeList.push(new Recipe(recipe.title, recipe.overview, recipe.image, recipe.servings, recipe.prepMinutes, recipe.cookMinutes, recipe.ingredients, recipe.instructions));
+        })
+    }
+}
+
 const recipeCardContainer = document.querySelector(".recipes__card__container");
 
  data.forEach(recipe => {
@@ -7,15 +17,6 @@ const recipeCardContainer = document.querySelector(".recipes__card__container");
      const recipeCard = getRecipeCard(recipe);
      recipeCardContainer.appendChild(recipeCard);
  })
-
-// console.log(`title: ${data[0].title}\n
-//     overview: ${data[0].overview}\n
-//     image: ${data[0].image}\n
-//     servings: ${data[0].servings}\n
-//     prepMinutes: ${data[0].prepMinutes}\n
-//     cookMinutes: ${data[0].cookMinutes}\n
-//     ingredients: ${data[0].ingredients}\n
-//     instructions: ${data[0].instructions} `);
 
 class Recipe {
     constructor(title, overview, image, servings, prepMinutes, cookMinutes, ingredients, instructions) {
