@@ -1037,11 +1037,11 @@ form {
   gap: 0.5rem;
 }
 
-.max-prep-container {
+.dropdown-container {
   display: none;
 }
 
-.dropdown legend.active + .max-prep-container {
+.dropdown legend.active + .dropdown-container {
   display: block;
   position: absolute;
   top: 3.25rem;
