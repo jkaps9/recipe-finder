@@ -1,4 +1,5 @@
 import "./styles.css";
+import "./Recipe.js";
 
 const menu = document.querySelector(".header__nav");
 const hamburger = document.querySelector(".header__hamburger");
