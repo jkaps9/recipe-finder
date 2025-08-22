@@ -1142,6 +1142,11 @@ input#search::placeholder {
 /* ******************* */
 /*       Recipes       */
 /* ******************* */
+.recipes__card__container {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 2rem;
+}
 
 .recipes__card {
   padding: 0.5rem;
@@ -1203,10 +1208,8 @@ input#search::placeholder {
 
 @media only screen and (min-width: 772px) {
   .recipes__card__container {
-    display: grid;
     grid-template-columns: repeat(auto-fit, minmax(376px, 1fr));
     justify-items: center;
-    gap: 2rem;
   }
 
   .recipes__card {
