@@ -1024,12 +1024,13 @@ input#search::placeholder {
 }
 
 .dropdown legend {
-  padding: 0.5rem 1rem;
+  padding: 0.625rem 1rem;
   padding-right: 2rem;
   border-radius: 8px;
   border: 1px solid var(--colors-neutral-800);
   position: relative;
   cursor: pointer;
+  background: #fff;
 }
 
 .dropdown legend:after {
@@ -1038,7 +1039,7 @@ input#search::placeholder {
   position: absolute;
   width: 1rem;
   height: 1rem;
-  top: 0.6em;
+  top: 0.75em;
   right: 0.75em;
   transition: transform 0.5s ease;
   transform: rotate(0deg);
@@ -1057,11 +1058,11 @@ input#search::placeholder {
 .dropdown legend.active + .max-prep-container {
   display: block;
   position: absolute;
-  top: 3rem;
+  top: 3.25rem;
   left: 0;
   right: 0;
   z-index: 2;
-  background: var(--colors-neutral-100);
+  background: #fff;
 }
 
 .filter-radio {
