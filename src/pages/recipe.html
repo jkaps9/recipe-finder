@@ -5,5 +5,78 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
   </head>
-  <body></body>
+  <body>
+    <header class="header">
+      <div class="container header__container">
+        <div class="header__logo">
+          <a href="/">
+            <img src="../assets/svgs/logo.svg" alt="logo" loading="eager" />
+          </a>
+        </div>
+        <nav class="header__nav" id="main-navigation">
+          <button class="header__hamburger">
+            <div class="header__hamburger__box">
+              <span class="header__hamburger__line" aria-hidden="true"></span>
+              <span class="header__hamburger__line" aria-hidden="true"></span>
+              <span class="header__hamburger__line" aria-hidden="true"></span>
+            </div>
+          </button>
+          <div class="menu__wrapper">
+            <ul class="header__menu" role="menu">
+              <li role="none">
+                <a href="/" class="header__menu__link" role="menuitem">Home</a>
+              </li>
+              <li role="none">
+                <a href="about.html" class="header__menu__link" role="menuitem"
+                  >About</a
+                >
+              </li>
+              <li role="none">
+                <a
+                  href="recipes.html"
+                  class="header__menu__link"
+                  role="menuitem"
+                  >Recipes</a
+                >
+              </li>
+            </ul>
+          </div>
+        </nav>
+        <a href="recipes.html" class="btn--solid header__btn">Browse recipes</a>
+      </div>
+    </header>
+    <footer>
+      <div class="container footer__container">
+        <div class="footer__logo">
+          <p class="footer__text text-preset-9">Made with ❤️ and 🥑</p>
+        </div>
+        <div class="footer__socials">
+          <a href="https://www.instagram.com" class="footer__socials__link">
+            <img
+              src="../assets/svgs/icon-instagram.svg"
+              alt="instagram"
+              loading="lazy"
+              decoding="async"
+            />
+          </a>
+          <a href="https://www.bluesky.com" class="footer__socials__link">
+            <img
+              src="../assets/svgs/icon-bluesky.svg"
+              alt="x (twitter)"
+              loading="lazy"
+              decoding="async"
+            />
+          </a>
+          <a href="https://www.tiktok.com" class="footer__socials__link">
+            <img
+              src="../assets/svgs/icon-tiktok.svg"
+              alt="pinterest"
+              loading="lazy"
+              decoding="async"
+            />
+          </a>
+        </div>
+      </div>
+    </footer>
+  </body>
 </html>
