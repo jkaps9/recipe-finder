@@ -1201,6 +1201,8 @@ input#search::placeholder {
   .recipes__card__container {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(376px, 1fr));
+    justify-items: center;
+    gap: 2rem;
   }
 
   .recipes__card {
