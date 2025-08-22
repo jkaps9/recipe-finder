@@ -1283,6 +1283,10 @@ input#search::placeholder {
   padding-bottom: 3rem;
 }
 
+.recipes__title {
+  margin-bottom: 1.5rem;
+}
+
 @media only screen and (min-width: 64rem) {
   .recipe__container {
     flex-direction: row;
