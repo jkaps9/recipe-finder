@@ -1243,7 +1243,6 @@ input#search::placeholder {
 }
 
 .recipe__image {
-  align-self: stretch;
   border-radius: 0.625rem;
   overflow: hidden;
   display: flex;
@@ -1282,4 +1281,25 @@ input#search::placeholder {
 .recipe-page section {
   padding-top: 3rem;
   padding-bottom: 3rem;
+}
+
+@media only screen and (min-width: 64rem) {
+  .recipe__container {
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+
+  .recipe__image {
+    align-items: flex-start;
+  }
+
+  .recipe {
+    padding-bottom: 4rem;
+  }
+
+  .recipe-page .recipes {
+    padding-top: 4rem;
+    padding-bottom: 6rem;
+  }
 }
