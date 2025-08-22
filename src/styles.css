@@ -1182,7 +1182,8 @@ input#search::placeholder {
 .recipe__statistics {
   display: flex;
   flex-wrap: wrap;
-  gap: 1rem;
+  column-gap: 1rem;
+  row-gap: 0.5rem;
   padding: 0 0.5rem;
 }
 
