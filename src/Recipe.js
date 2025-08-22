@@ -32,7 +32,7 @@ class Recipe {
 
 function getRecipeCard(recipe) {
     const card = document.createElement("div");
-    card.classList.add('recipes__card');
+    card.className='card recipes__card';
     
     // IMAGE
     const imageContainer = document.createElement("div");
