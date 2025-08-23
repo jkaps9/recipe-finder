@@ -2,11 +2,18 @@ import data from "./data.json";
 
 class RecipeManager {
     recipeList = [];
-
     constructor() {
-        data.forEach(recipe => {
+        this.#getRecipes();
+    }
+
+    searchRecipesByTitle(str) {
+
+    }
+
+    #getRecipes() {
+       data.forEach(recipe => {
             recipeList.push(new Recipe(recipe.title, recipe.overview, recipe.image, recipe.servings, recipe.prepMinutes, recipe.cookMinutes, recipe.ingredients, recipe.instructions));
-        })
+        }) 
     }
 }
 
